@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: public
+    database: retail_cx_dw
+    tables:
+      - name: dim_cliente
+        columns:
+          - name: id_cliente
+            tests:
+              - unique
+              - not_null
+      - name: fact_atencion_cx
+        columns:
+          - name: id_ticket
+            tests:
+              - unique
+              - not_null
+          - name: id_cliente
+            tests:
+              - not_null
+
+models:
+  - name: stg_dim_cliente
+    description: "Modelo de staging para la dimension de clientes"
+  - name: stg_fact_atencion_cx
+    description: "Modelo de staging para la tabla de hechos de atencion"

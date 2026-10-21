@@ -1,0 +1,29 @@
+[0m22:05:36.316387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce20aa79f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce2095366e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce209536650>]}
+
+
+============================== 22:05:36.319207 | e635d430-5380-43e3-852b-a58910e84b9f ==============================
+[0m22:05:36.319207 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m22:05:36.319748 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'maximum_seed_size_mib': '1', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'use_colors': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'target_path': 'None', 'introspect': 'True', 'debug': 'False', 'hints_enabled': 'True', 'printer_width': '80', 'quiet': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'profiles_dir': '/home/jocelyn/proyecto_retail_cx', 'log_format': 'default', 'write_json': 'True', 'empty': 'None', 'invocation_command': 'dbt init dbt_project --skip-profile-setup', 'cache_selected_only': 'False', 'version_check': 'True', 'log_path': 'logs'}
+[0m22:05:36.320088 [debug] [MainThread]: Tracking: tracking
+[0m22:05:36.328492 [debug] [MainThread]: Starter project path: /home/jocelyn/proyecto_retail_cx/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m22:05:36.330411 [info ] [MainThread]: Your new dbt project "dbt_project" was created!
+Initialized new project in /home/jocelyn/proyecto_retail_cx/dbt_project/dbt_project
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:05:36.331752 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.10063481, "process_in_blocks": "64", "process_kernel_time": 0.063973, "process_mem_max_rss": "100268", "process_out_blocks": "72", "process_user_time": 1.345448}
+[0m22:05:36.332572 [debug] [MainThread]: Command `dbt init` succeeded at 22:05:36.332453 after 0.10 seconds
+[0m22:05:36.333005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce20aa79f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce209536f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ce2095366b0>]}
+[0m22:05:36.333399 [debug] [MainThread]: Flushing usage events
+[0m22:05:37.859195 [debug] [MainThread]: An error was encountered while trying to flush usage events

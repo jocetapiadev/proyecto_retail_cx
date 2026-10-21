@@ -1,0 +1,4 @@
+cliente_id,ciudad,segmento,canal_atencion,total_gastado,total_compras,ticket_id,tiempo_respuesta_min,resuelto,comentario_cliente,sentimiento_categoria,sentimiento_score
+1,Santiago,VIP,WhatsApp,240.0,2,501,5,1,"Excelente atención, muy rápido todo.",Neutro,0.0
+2,Valparaíso,Regular,Llamada,45.5,1,502,45,0,Demoraron mucho en responder y no resolvieron mi problema.,Neutro,0.0
+3,Concepción,VIP,Web,210.0,1,503,12,1,Todo bien pero la página falló al pagar.,Neutro,0.0

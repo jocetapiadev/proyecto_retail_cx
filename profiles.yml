@@ -1,0 +1,12 @@
+dbt_project:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: admin
+      pass: adminpassword
+      port: 5432
+      dbname: retail_cx_dw
+      schema: public
+      threads: 1
+  target: dev

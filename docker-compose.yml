@@ -1,0 +1,12 @@
+services:
+  postgres_dw:
+    image: postgres:15-alpine
+    container_name: retail_postgres_dw
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminpassword
+      POSTGRES_DB: retail_cx_dw
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
