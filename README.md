@@ -22,3 +22,7 @@ Puedes acceder y explorar el reporte en vivo directamente en Looker Studio:
 - `sql/`: Scripts de tablas, relaciones y vistas relacionales.
 - `scripts/`: Scripts automatizados en Python para extracción y procesamiento.
 - `dashboard/`: Capturas y recursos visuales del reporte interactivo.
+
+## 🚀 Live Demo & Visual Analytics
+Puedes interactuar directamente con el panel ejecutivo en vivo desplegado en Streamlit Cloud:
+👉 **[Ver Dashboard Analytics CX en Vivo](https://proyectoretailcx-dwozybvh9rtpt3akwbdcvm.streamlit.app)**
