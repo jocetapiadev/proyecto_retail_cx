@@ -26,3 +26,4 @@ Puedes acceder y explorar el reporte en vivo directamente en Looker Studio:
 ## 🚀 Live Demo & Visual Analytics
 Puedes interactuar directamente con el panel ejecutivo en vivo desplegado en Streamlit Cloud:
 👉 **[Ver Dashboard Analytics CX en Vivo](https://proyectoretailcx-dwozybvh9rtpt3akwbdcvm.streamlit.app)**
+README_FIN
